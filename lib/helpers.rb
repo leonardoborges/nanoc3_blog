@@ -15,9 +15,9 @@ require 'time'
 # If the output file does not end with an .html extension, item[:layout] is set to 'none'
 # bypassing the use of layouts.
 # 
-def route_path(item)
+def route_path(item, append_ext=true)
   # in-memory items have not file
-  return item.identifier + "index.html" if item[:content_filename].nil?
+  return append_ext == true ? item.identifier + "index.html" : item.identifier# if item[:content_filename].nil?
   
   url = item[:content_filename].gsub(/^content/, '')
  
@@ -31,12 +31,14 @@ def route_path(item)
   else
     outext = '.html'
   end
+  # puts item.identifier
+  # puts "extname = #{extname}"
+  # puts "outext = #{outext}"
   url.gsub!(extname, outext)
-  
-  if url.include?('-')
-    url = url.split('-').join('/')  # /2010/01/01-some_title.html -> /2010/01/01/some_title.html
-  end
-
+  # TODO: check if this block of code is necessary
+  # if url.include?('-')
+  #   url = url.split('-').join('/')  # /2010/01/01-some_title.html -> /2010/01/01/some_title.html
+  # end
   url
 end
 
@@ -46,7 +48,7 @@ def create_tag_pages
     items << Nanoc3::Item.new(
       "= render('_tag_page', :tag => '#{tag}')",           # use locals to pass data
       { :title => "Category: #{tag}", :is_hidden => true}, # do not include in sitemap.xml
-      "/tags/#{tag}/",                                     # identifier
+      "/tag/#{tag.downcase.gsub(' ','-')}/",               # identifier
       :binary => false
     )
   end

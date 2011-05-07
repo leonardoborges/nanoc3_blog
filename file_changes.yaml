@@ -1,25 +1,361 @@
 --- 
 :"content/2009/12-31-end_of_year.haml": 
   :created_at: 2009/12/31
-  :updated_at: 2010-06-15 15:14:42 -07:00
+  :updated_at: 2010-06-16 08:14:42 +10:00
   :digest: a26aafbc69e5e95b7fe2b258bef9513fadfdce5c
 :"content/2010/01-01-ruby_article.haml": 
   :created_at: 2010/01/01
-  :updated_at: 2010-06-15 15:14:42 -07:00
+  :updated_at: 2010-06-16 08:14:42 +10:00
   :digest: 35eab6135db6e757cbec195f0d31d1ceb1b7c4d1
 :"content/2010/01-03-stylesheet_article.haml": 
   :created_at: 2010/01/03
-  :updated_at: 2010-06-15 15:14:42 -07:00
+  :updated_at: 2010-06-16 08:14:42 +10:00
   :digest: f2a1d55406e72627d1b85366492f38570f9ff000
 :"content/2010/01-13-erb-markdown-test.html.md": 
   :created_at: 2010/01/13
-  :updated_at: 2010-06-15 15:14:42 -07:00
+  :updated_at: 2010-06-16 08:14:42 +10:00
   :digest: b0b78b830d428a5ec9015c0decccaf5cde7d6653
 :"content/2010/01-14-markdown-test.md": 
   :created_at: 2010/01/14
-  :updated_at: 2010-06-15 15:14:42 -07:00
+  :updated_at: 2010-06-16 08:14:42 +10:00
   :digest: 290196131b48b501ad9c5f340b63039991e490d9
 :"content/2010/01-15-getting_started_with_nanoc3_blog.html.md": 
   :created_at: 2010/01/15
-  :updated_at: 2010-06-15 15:45:40 -07:00
+  :updated_at: 2010-06-16 08:45:40 +10:00
   :digest: b83ea94d2919845a9f25c4a5b597ebdcbe660809
+:"content/2007/10/12/como-o-spring-me-ajudou-a-manter-o-active-record.html": 
+  :created_at: 2007/10/12
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 8ed35a1a259ecd92bab8da957ad7fee69a98149f
+:"content/2007/10/15/scea-5-beta.html": 
+  :created_at: 2007/10/15
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 442bae60c43f9a502d53e51518c1ed3962cf018b
+:"content/2007/10/21/software-livre.html": 
+  :created_at: 2007/10/21
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 3807a09960f6cfe0d92c196886dd234272cf7c74
+:"content/2007/10/28/eu-odeio-xml.html": 
+  :created_at: 2007/10/28
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 24838e2c371b5f2d0ac2c58daba3d5190895bddb
+:"content/2007/11/10/enquanto-isso-em-portugal.html": 
+  :created_at: 2007/11/10
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: eab96cf85b49054f63f9063cce0c68cbe424ac72
+:"content/2007/11/19/language-change.html": 
+  :created_at: 2007/11/19
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: c24b5293c90d7a23bec7f4f2be3076d2f61fae11
+:"content/2007/11/19/ruby-on-db2-a-linux-nightmare-with-a-happy-end.html": 
+  :created_at: 2007/11/19
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: fa2608e393235529a1d1d978a79a5077f8f5df90
+:"content/2007/11/22/why-every-programmer-have-to-be-dumb.html": 
+  :created_at: 2007/11/22
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: a55f9d9edcea73adbc746991d9f3fdadd3280701
+:"content/2007/11/30/rubyworks-production-stack-for-rails.html": 
+  :created_at: 2007/11/30
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: c8fded2a54a56f4cb885c316decf0a6af08eb138
+:"content/2007/12/07/spring-25-dependency-injection-that-doesnt-hurt.html": 
+  :created_at: 2007/12/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: d48534012e377ef0db309e2002f0a1c23b4c1585
+:"content/2007/12/20/rails-20-scaffold.html": 
+  :created_at: 2007/12/20
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 9d1e7575943529c2eafd94125d61c5464a4dfd7f
+:"content/2008/01/02/rails-20-xml-data-type-and-db2.html": 
+  :created_at: 2008/01/02
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 2686fd6711d0ebc1117806b3b44db858576a3fbe
+:"content/2008/01/17/dbunit-and-hibernate.html": 
+  :created_at: 2008/01/17
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 4c85bfc3de7d17b6cffe67b0e525cdf30ad8f131
+:"content/2008/02/18/openid.html": 
+  :created_at: 2008/02/18
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 9305d724534f0ba0be086fff0983e1d85a0dc2b7
+:"content/2008/03/07/qcon-2008-london.html": 
+  :created_at: 2008/03/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: a5c827fa0e4168df307bf7eab45167d811c96034
+:"content/2008/03/10/qcon-2008-domain-specific-languages.html": 
+  :created_at: 2008/03/10
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 4bcacdf10286b1dd82d692f9ccaf3b0de8cece29
+:"content/2008/03/25/euruko-2008-european-rubyconf-prague.html": 
+  :created_at: 2008/03/25
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 80a80d790186e222eb50773795c73615e81dd4aa
+:"content/2008/04/01/why-i-like-ruby-or-ruby-the-language-of-the-lazy-programmer.html": 
+  :created_at: 2008/04/01
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 51dbaa101b7fe996571173351da07dfcadfb4fe9
+:"content/2008/04/04/qcon-2008-slides-available.html": 
+  :created_at: 2008/04/04
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: f36871f0a4412bd2f14ad3a96a0af3f77bc8cc08
+:"content/2008/04/07/jruby-db2-xquery-bug.html": 
+  :created_at: 2008/04/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: e32c71da2b4589e65071c81bf1541c0bd946a796
+:"content/2008/04/07/time-to-reveal.html": 
+  :created_at: 2008/04/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 54d9d0b093bc59396678cd8d7bb8f8205fcabd00
+:"content/2008/04/13/passengermod_rails-released.html": 
+  :created_at: 2008/04/13
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 728af746a04e836f2c597b2128ad1dd36c0fef8f
+:"content/2008/05/10/a-couple-of-things-from-here.html": 
+  :created_at: 2008/05/10
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: cff2f5d91908f37432f0c1efacea64fa199069b3
+:"content/2008/05/14/euruko-2008-materials-available.html": 
+  :created_at: 2008/05/14
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 26477b2677de190f7a02cdb0e8e818e4753166f2
+:"content/2008/06/07/passenger-mod_rails-and-problems-with-custom-apache-installation.html": 
+  :created_at: 2008/06/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 3aa04b67ea5014ea2f69f13f9dda9809db43ce14
+:"content/2008/06/07/presentation-spring-framework.html": 
+  :created_at: 2008/06/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 974264d1543ea7ddfa384b0ad657bd68b033c8d1
+:"content/2008/07/07/mock-objects.html": 
+  :created_at: 2008/07/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: dbe8205deffa259fb04a85f1212c3b0f397c2710
+:"content/2008/07/26/new-provider.html": 
+  :created_at: 2008/07/26
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 57b55242c93ee85e99ddc15acb236f8cf6cb2bbc
+:"content/2008/08/04/the-biggest-rails-event-in-latin-america.html": 
+  :created_at: 2008/08/04
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 91d240722df35042c1e929ff509f21b0972066f0
+:"content/2008/08/07/why-i-like-ruby-1-alias_method.html": 
+  :created_at: 2008/08/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: f53f21dd9d5e42cc97d1c83514e0b81091f67f2b
+:"content/2008/08/15/yes-we-do-eat.html": 
+  :created_at: 2008/08/15
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 91a46bdacbc9fe183780d7d415a39f14e83ef291
+:"content/2008/08/24/rails-vulnerability-on-rexml.html": 
+  :created_at: 2008/08/24
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 03f7cb8184e0ca8851c315404c0d20d5624b2caf
+:"content/2008/08/28/mac-os-x-getting-mysql-and-rails-to-work.html": 
+  :created_at: 2008/08/28
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 47dfff18f467b97fe76eaaf6befbd48311791c90
+:"content/2008/08/30/railsconf-europe-2008-heading-to-berlin.html": 
+  :created_at: 2008/08/30
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 3de7ee7ca414d46fdfe1770112f87ddfb2cdbbe8
+:"content/2008/09/09/railsconf-europe-2008-impressions-and-highlights.html": 
+  :created_at: 2008/09/09
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 8425ed03a5056f178d3da37f1c07210767854855
+:"content/2008/09/26/were-hiring.html": 
+  :created_at: 2008/09/26
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 66b10e918b4f62d9eb169168703189ae4e3d1172
+:"content/2008/10/08/dont-use-rexml-i-mean-it.html": 
+  :created_at: 2008/10/08
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 2e76d262d0272d6b4728b863d72d258d3a1f2c0c
+:"content/2008/10/28/understanding-ruby-threads.html": 
+  :created_at: 2008/10/28
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: d01e24522b02643f9d11d2e38f8dcfcc00f6352c
+:"content/2008/11/18/merb-turns-10-and-started-driving-me-crazy.html": 
+  :created_at: 2008/11/18
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 02ac2bc997f16f2de69ca8c4a639ae25d9237ae9
+:"content/2008/11/20/rails-performance-scripts-profiler-benchmarker.html": 
+  :created_at: 2008/11/20
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: e620905fa5e07276eaecbe0bfa3963630f8e4839
+:"content/2008/12/03/apologizing-in-advance-p.html": 
+  :created_at: 2008/12/03
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: e486e5b1461431ef84ab558e2d94b12a56391cda
+:"content/2008/12/29/somewhere-in-between.html": 
+  :created_at: 2008/12/29
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: b689a83647d6cc3cfed978a4ed59f2da1c3192ff
+:"content/2009/02/01/eclipse-tip-debugging-non-wtp-projects.html": 
+  :created_at: 2009/02/01
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 8683150056dcc75b82b3e2f5d458b6c7245d015b
+:"content/2009/03/09/qcon-london-09.html": 
+  :created_at: 2009/03/09
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 69e75f2d0dd26ca39dbcd1da37701b5a4ed59360
+:"content/2009/03/17/final-classes-are-evil.html": 
+  :created_at: 2009/03/17
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 9de8ee74d555439136e1ab5b040d1f1b99f2504c
+:"content/2009/04/06/long-stand-up-meetings.html": 
+  :created_at: 2009/04/06
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: d42464433625fadbda1fa40f9421d986099e1ff6
+:"content/2009/04/10/jruby-on-rails-and-google-app-engine.html": 
+  :created_at: 2009/04/10
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 00e79cbed4a6711731e4955070c21e85175db96b
+:"content/2009/04/22/git-cheat-shee.html": 
+  :created_at: 2009/04/22
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: f754756827c8abc9ec4d1b5a3e9c04ea25f8111b
+:"content/2009/05/05/rcov-jruby-and-rcov_plugin.html": 
+  :created_at: 2009/05/05
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 9678e26ad7004efb55abf2bec295be89adc220ac
+:"content/2009/05/16/rails-readable-test-names-run-individual-tests-from-the-console.html": 
+  :created_at: 2009/05/16
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: d4e04a1d0ec1874e747ab2d01520cd6bd9c0c32b
+:"content/2009/05/29/railswaycon-jruby-internals-by-ola-bini.html": 
+  :created_at: 2009/05/29
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: ab1aac6f3a2bbc8495e5de3500a0bf19b840c935
+:"content/2009/06/06/coding-dojo-1-the-fun-begins.html": 
+  :created_at: 2009/06/06
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 393f3f656b3c0da8114dc1fb5bfb0e3dc86c0ee4
+:"content/2009/06/08/how-do-you-keep-yourself-focused.html": 
+  :created_at: 2009/06/08
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: ead0ff26e17d94c76ed1c0e59675451c1440d8cc
+:"content/2009/06/14/helping-the-jruby-effort-debugging-the-source.html": 
+  :created_at: 2009/06/14
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 97fc9fdc6ce96f04024f83647c5bad33292b08e0
+:"content/2009/06/22/google-io-thoughtworks-on-gae.html": 
+  :created_at: 2009/06/22
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: df5d7a0d6015472be1a0f1d95af10a04b63e85c8
+:"content/2009/07/01/jruby-on-rails-and-legacy-java-apps-managing-dependencies.html": 
+  :created_at: 2009/07/01
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: a21fca77e4c52c380907c6390c552e97858d2388
+:"content/2009/07/22/procs-lambdas-blocks-whats-the-difference.html": 
+  :created_at: 2009/07/22
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 551225ed3d4462ad99e39e1bdc3fd5b9c4fbfa2e
+:"content/2009/07/31/jvm-language-preferences-poll-results.html": 
+  :created_at: 2009/07/31
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 29e7a5796e678c42a3cf161211db21479d779413
+:"content/2009/08/25/rails-rumble-09.html": 
+  :created_at: 2009/08/25
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: cd63e81ed8a1f7d03c827c73e304635069146e06
+:"content/2009/09/03/rails-summit-2009-im-speaking.html": 
+  :created_at: 2009/09/03
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 70cf8edc5d9e49f4780c45365dbd0587072e27dd
+:"content/2009/09/18/refactoring-for-readability.html": 
+  :created_at: 2009/09/18
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 36a5952c102a26376ee40eaf6dadc12420afe673
+:"content/2009/10/07/a-few-more-thoughts-on-final-classes.html": 
+  :created_at: 2009/10/07
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 5cc1dad9f27bcdbe159a22037c093f27c7a79764
+:"content/2009/10/08/soon-off-to-conquer-lands-afar.html": 
+  :created_at: 2009/10/08
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 5024dc176ae21b5d7cd4074ad6bb9cbb4cb28852
+:"content/2009/10/18/my-slides-from-rails-summit-09.html": 
+  :created_at: 2009/10/18
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: d27f36b0f51847c196ec682cfa1a2ba392fdee18
+:"content/2009/11/04/rupy-2009-poznan.html": 
+  :created_at: 2009/11/04
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 403f2bc43a89390be9a17b77a0be00d6a97bb48c
+:"content/2010/01/02/managing-multiple-ruby-versions.html": 
+  :created_at: 2010/01/02
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: d523561fda5d03987b209a97b40b1f07e05d1d59
+:"content/2010/01/13/monit-thinking-sphinx-and-rvm.html": 
+  :created_at: 2010/01/13
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 24fe88328fee09908d25527e785338446a2f7696
+:"content/2010/01/23/my-take-on-rails-environment-specific-constants.html": 
+  :created_at: 2010/01/23
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 3061fc8fea2d66618cad218b075a8804fc1c2e84
+:"content/2010/02/03/hacking-rubys-syntax.html": 
+  :created_at: 2010/02/03
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: a2fb6c5ab688e3085096b264e309c45696257cbe
+:"content/2010/02/25/learning-objective-c-a-ruby-analogy.html": 
+  :created_at: 2010/02/25
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: f8d9f6732470852aa43abdb4479a24c045488129
+:"content/2010/02/28/upgrading-appconstants-to-rails-3.html": 
+  :created_at: 2010/02/28
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 64d10f4a455109cec254ca1041a4ce44728ff026
+:"content/2010/04/09/fallingdreams-my-very-own-tetris-clone.html": 
+  :created_at: 2010/04/09
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 747dea4687da11f455a07cc57ef0643040d0ecf3
+:"content/2010/04/10/goodbye-europe-a-two-year-retrospective.html": 
+  :created_at: 2010/04/10
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 5d8e1c918001123b7c06987c078553d52ab0eff5
+:"content/2010/04/24/small-update-to-appconstants.html": 
+  :created_at: 2010/04/24
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 8a6e2ce5196630c8ae64356f7e287cc233ee0a4f
+:"content/2010/06/14/are_you_testing_your_javascript_yet.html": 
+  :created_at: 2010/06/14
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 594136c279d213066fc8c49e2d93e9eb1950261f
+:"content/2010/09/28/help-stop-the-ie-money-drain.html": 
+  :created_at: 2010/09/28
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 7d067b0d0073fc763e2e67188b21d546a41809c3
+:"content/2011/01/16/clouds-against-the-floods.html": 
+  :created_at: 2011/01/16
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 22c19afcc5c771a2bb4faf4ee8c9e50134ebcb29
+:"content/2011/02/02/update-to-appconstants-it-can-now-be-used-as-a-gem.html": 
+  :created_at: 2011/02/02
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 7cdc13e3e201017cd76bfbb82b172edf7c5f8084
+:"content/2011/02/12/clouds-against-the-floods-presentation-available.html": 
+  :created_at: 2011/02/12
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 79baf126f24abe0e99733d7370e4f7a480c7e9f9
+:"content/2011/02/16/ide-review-rubymine.html": 
+  :created_at: 2011/02/16
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: e71e323c5b7ef514dcacb929a8627ac177281d8c
+:"content/2011/03/19/rottingnames-for-iphone-available-for-free.html": 
+  :created_at: 2011/03/19
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 597ba325e08dad820713bf9fde5dcb7f3204f22e
+:"content/2011/03/31/simplejquery-daterange-picker.html": 
+  :created_at: 2011/03/31
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: e3e0e131acd800969a66d411d6880d7ce28eb991
+:"content/2011/04/09/look-ma-no-hands-tweeting-with-your-voice.html": 
+  :created_at: 2011/04/09
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 24d33a1518a128682677fa13108ab1663273882c
+:"content/2011/04/25/one-year-of-thoughtworks-a-retrospective.html": 
+  :created_at: 2011/04/25
+  :updated_at: 2011-05-07 14:22:07 +10:00
+  :digest: 9ee75b2a490ced69506b50a6171aa9ab6ac86456

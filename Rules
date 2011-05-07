@@ -13,11 +13,16 @@ compile '/assets/css/*/' do
   filter :sass
 end
 
+compile '/atom/*' do
+  filter :erb
+  # no layout
+end
+
 compile '*' do
   # item[:extension] returns 'html.erb' for multi-dotted filename
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
-  if ext == 'erb'
+  if ext == 'erb' || ext == 'html'
     filter :erb
   elsif ext == 'haml' || ext.nil?
     filter :haml
@@ -32,10 +37,16 @@ compile '*' do
   item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
 
   layout 'default' unless item[:layout] == "none"
+  filter :relativize_paths, :type => :html 
+  filter :relativize_paths, :type => :css
 end
 
 route '/assets/css/*/' do
   item.identifier.chop + '.css'
+end
+
+route '/atom/*' do
+  '/atom.xml'
 end
 
 route '*' do

@@ -14,7 +14,7 @@
     end
   end
   def link_unless_current(s)
-    "<li><a href='/#{s}.html'>#{s}</a></li>" if @item.identifier != "/#{s}/" 
+    "<li><a href='/#{s}/'>#{s}</a></li>" if @item.identifier != "/#{s}/" 
   end
   def logo
     if is_front_page?
