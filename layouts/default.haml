@@ -33,7 +33,7 @@
     %meta(name="description" content="#{@item[:excerpt]}")
     %link(href="/assets/css/reset.css" rel="stylesheet" type="text/css")
     %link(href="/assets/css/style.css" media="screen" rel="stylesheet" type="text/css")
-
+    %link(href="/atom.xml" rel="alternate" title="Leonardo Borges' Atom Feed" type='application/atom+xml')
   %body
     -# needed since some content render <pre> blocks
     - content = find_and_preserve(yield)
