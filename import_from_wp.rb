@@ -38,17 +38,19 @@ POST_BODY
   private
 
   def build_post_attributes(post)
-    time = Time.parse(post.date).utc - 25200 #7 hours
+    match_data = post.link.match(/writings\/(\d+)\/(\d+)\/(\d+)\//)
+    year, month, day = match_data.captures[0],match_data.captures[1],match_data.captures[2]
     { :title      => post.title, 
       :excerpt    => Nokogiri::HTML::DocumentFragment.parse(post.body).text[0,200] + '...',
-      :created_at => "#{time.year}/#{time.month.to_s.rjust(2,'0')}/#{time.day.to_s.rjust(2,'0')}",
+      :created_at => "#{year}/#{month}/#{day}",
       :kind       => "article",
       :tags       => post.categories }
   end
   
   def build_post_identifier(post)
-  	time = Time.parse(post.date).utc - 25200 #7 hours
-    "/#{time.year}/#{time.month.to_s.rjust(2,'0')}/#{time.day.to_s.rjust(2,'0')}/#{post.slug}/"
+  	match_data = post.link.match(/writings\/(\d+)\/(\d+)\/(\d+)\//)
+    year, month, day = match_data.captures[0],match_data.captures[1],match_data.captures[2]
+    "/#{year}/#{month}/#{day}/#{post.slug}/"
   end
 end
 
