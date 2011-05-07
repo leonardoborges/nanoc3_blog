@@ -3,6 +3,7 @@ require 'wpxml_parser'
 require 'nanoc3'
 require 'fileutils'
 require 'time'
+require 'nokogiri'
 
 XML_PATH = 'data.xml'
 NANOC_PATH = '.'
@@ -39,6 +40,7 @@ POST_BODY
   def build_post_attributes(post)
     time = Time.parse(post.date).utc - 25200 #7 hours
     { :title      => post.title, 
+      :excerpt    => Nokogiri::HTML::DocumentFragment.parse(post.body).text[0,200] + '...',
       :created_at => "#{time.year}/#{time.month.to_s.rjust(2,'0')}/#{time.day.to_s.rjust(2,'0')}",
       :kind       => "article",
       :tags       => post.categories }
