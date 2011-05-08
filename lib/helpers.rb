@@ -4,6 +4,7 @@ include Nanoc3::Helpers::XMLSitemap
 require 'builder'
 require 'fileutils'
 require 'time'
+require 'nokogiri'
 
 # Hyphens are converted to sub-directories in the output folder.
 #
@@ -74,6 +75,14 @@ def add_update_item_attributes
       # sets updated_at based on content change date not file time
       change = changes.status(item[:content_filename], item[:created_at], item.raw_content)
       item[:updated_at] = item[:updated_at] || change[:updated_at].to_s
+    end
+  end
+end
+
+def generate_excerpt
+  articles.each do |item|
+    if item[:excerpt].nil? || item[:excerpt].empty?
+      item[:excerpt] = Nokogiri::HTML::DocumentFragment.parse(item.raw_content).text[0,200] + '...'
     end
   end
 end
