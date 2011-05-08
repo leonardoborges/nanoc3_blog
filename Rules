@@ -13,6 +13,9 @@ compile '/assets/css/*/' do
   filter :sass
 end
 
+compile '/assets/images/*/' do
+end
+
 compile '/atom/*' do
   filter :erb
   # no layout
@@ -43,6 +46,10 @@ end
 
 route '/assets/css/*/' do
   item.identifier.chop + '.css'
+end
+
+route '/assets/images/*/' do
+  item.identifier.chop + '.' + item[:extension]
 end
 
 route '/atom/*' do
