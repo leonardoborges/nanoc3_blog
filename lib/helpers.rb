@@ -73,7 +73,7 @@ def add_update_item_attributes
 
       # sets updated_at based on content change date not file time
       change = changes.status(item[:content_filename], item[:created_at], item.raw_content)
-      item[:updated_at] = change[:updated_at].to_s
+      item[:updated_at] = item[:updated_at] || change[:updated_at].to_s
     end
   end
 end

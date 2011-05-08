@@ -43,6 +43,7 @@ POST_BODY
     { :title      => post.title, 
       :excerpt    => Nokogiri::HTML::DocumentFragment.parse(post.body).text[0,200] + '...',
       :created_at => "#{year}/#{month}/#{day}",
+      :updated_at => "#{year}/#{month}/#{day}",
       :kind       => "article",
       :tags       => post.categories }
   end
