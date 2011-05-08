@@ -1,5 +1,7 @@
 # nanoc3_blog
 
+This is a mirror of my blog, use it at your own peril ;)
+
 This is a [nanoc3](http://nanoc.stoneship.org/) blog starter kit. FreeBSD licensed.
 
 View this project on [nanoc3-blog.mgutz.com](http://nanoc3-blog.mgutz.com/).
