@@ -48,7 +48,7 @@ def create_tag_pages
     items << Nanoc3::Item.new(
       "= render('_tag_page', :tag => '#{tag}')",           # use locals to pass data
       { :title => "Category: #{tag}", :is_hidden => true}, # do not include in sitemap.xml
-      "/tag/#{tag.downcase.gsub(' ','-')}/",               # identifier
+      tag_uri(tag),               # identifier
       :binary => false
     )
   end
@@ -151,6 +151,13 @@ def n_older_articles(n, reference_item)
   end
 end
 
+def tag_uri(tag)
+  "/tag/#{tag.downcase.gsub(' ','-')}/"
+end
+
+def base_url
+  @config[:base_url]
+end
 
 def site_name
   @config[:site_name]

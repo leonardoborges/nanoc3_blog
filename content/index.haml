@@ -24,4 +24,4 @@ title: Leonardo Borges - the not so usual geeky stuff...
   - tags = count_tags()
   - tags.each.sort_by {|k,v| k}.each do |tag_count|
     - tag = tag_count[0]
-    %a(href="/tag/#{tag.downcase.gsub(' ','-')}/" class='tag')= tag
+    %a(href="#{tag_uri(tag)}" class='tag')= tag

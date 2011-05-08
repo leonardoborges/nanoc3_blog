@@ -9,10 +9,10 @@
         %li
           &middot;
         %li
-          %a(href="http://www.leonardoborges.com/writings#{item.identifier}#disqus_thread")
+          %a(href="#{base_url}#{item.identifier}#disqus_thread")
       - if item[:tags]
         %li &middot;
         - item[:tags].sort.each do |tag|
           %li
-            %a(href="/tag/#{tag.downcase.gsub(' ','-')}/" class='tag')
+            %a(href="#{tag_uri(tag)}" class='tag')
               = tag
