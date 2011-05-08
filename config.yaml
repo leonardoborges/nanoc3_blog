@@ -19,8 +19,8 @@ deploy:
 base_url: http://leonardoborges.com/writings
 
 google_analytics:
-  domain: mgutz.com
-  site_id: UA-9655468-1
+  domain: leonardoborges.com
+  site_id: UA-2811271-1
 
 # currently used by logo
 site_name: Leonardo Borges
