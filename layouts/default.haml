@@ -46,10 +46,13 @@
           %ul
             != link_unless_current "about-2", "about"
             != link_unless_current "projects"
+            != link_unless_current "presentations"
+            != link_unless_current "books"
+            != link_unless_current "articles"
             != link_unless_current "archives"
             != link_unless_current "tags"
             %li
-              %a(href='/atom.xml') rss
+              %a(href='/atom.xml') atom
       .clear
 
       #social
