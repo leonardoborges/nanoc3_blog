@@ -151,6 +151,10 @@ def n_older_articles(n, reference_item)
   end
 end
 
+def img_path(identifier)
+  items.select{|i|i.identifier== identifier}[0].path
+end
+
 def tag_uri(tag)
   "/tag/#{tag.downcase.gsub(' ','-')}/"
 end
