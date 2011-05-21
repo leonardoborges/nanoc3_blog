@@ -1,7 +1,7 @@
 ---
 ---
 
-- if disqus_shortname
+- if disqus_shortname && !item[:is_hidden]
   .comments
     #disqus_thread
     %script{:type => "text/javascript", :charset => "utf-8"}

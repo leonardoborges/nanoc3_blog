@@ -46,7 +46,7 @@ TEMPLATE
     template = <<TEMPLATE
 ---
 created_at: #{@ymd}
-excerpt: 
+excerpt:
 kind: article
 publish: true
 tags: [misc]
@@ -65,7 +65,7 @@ TEMPLATE
     ymd = @ymd.split('-')
     year, month, day = ymd[0], ymd[1], ymd[2]
     path = "content/" + year + "/" + month + "/" + day + "/"
-    filename = title.parameterize('-') + ".html"
+    filename = title.parameterize('-') + ".html.erb"
     [path, filename, path + filename]
   end
 end

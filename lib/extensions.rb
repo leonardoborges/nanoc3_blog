@@ -11,3 +11,10 @@ class Array
     }.flatten]
   end
 end
+
+# Removes hidden articles from atom feed
+module Nanoc3::Helpers::Blogging
+  def articles
+    @items.select { |item| item[:kind] == 'article' && !item[:is_hidden] }
+  end
+end

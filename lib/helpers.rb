@@ -133,6 +133,7 @@ end
 
 
 def n_newer_articles(n, reference_item)
+  return [] if reference_item[:is_hidden] #handles drafts
   @sorted_articles ||= sorted_articles
   index = @sorted_articles.index(reference_item)
   
@@ -148,6 +149,7 @@ end
 
 
 def n_older_articles(n, reference_item)
+  return [] if reference_item[:is_hidden] #handles drafts
   @sorted_articles ||= sorted_articles
   index = @sorted_articles.index(reference_item)
   
