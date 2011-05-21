@@ -57,16 +57,22 @@
       .clear
 
       #social
-        %span Social:
         %ul
           %li
-            %a(href='http://twitter.com/leonardo_borges' target='_blank') twitter
+            %a{:href => 'http://twitter.com/leonardo_borges', :target => '_blank', :title => 'twitter'}
+              %img{ :src => img_path('/assets/images/twitter_32/'), :alt => 'twitter'}
           %li
-            %a(href='http://github.com/leonardoborges' target='_blank') github
+            %a{:href => 'http://github.com/leonardoborges', :target => '_blank', :title => 'github'}
+              %img{ :src => img_path('/assets/images/github_32/'), :alt => 'github'}
           %li
-            %a(href='http://www.linkedin.com/in/leonardoborges' target='_blank') linkedin
+            %a{:href => 'http://www.linkedin.com/in/leonardoborges', :target => '_blank', :title => 'linkedin'}
+              %img{ :src => img_path('/assets/images/linkedin_32/'), :alt => 'linkedin'}
           %li
-            %a(href='http://www.xing.com/profile/Leonardo_BorgesBarbosa' target='_blank') xing
+            %a{:href => 'http://flickr.com/photos/leonardo_borges/', :target => '_blank', :title => 'flickr'}
+              %img{ :src => img_path('/assets/images/flickr_32/'), :alt => 'flickr'}
+          %li
+            %a{:href => 'http://www.last.fm/user/leonardo_borges', :target => '_blank', :title => 'lastfm'}
+              %img{ :src => img_path('/assets/images/lastfm_32/'), :alt => 'lastfm'}
 
       #content
         - if @item[:kind] == 'article'
