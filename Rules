@@ -12,7 +12,7 @@ end
 
 compile '/assets/css/*/' do
   filter :erb
-  filter :sass
+  filter :sass if item[:extension] == 'sass'
 end
 
 compile '/assets/images/*/' do
@@ -47,8 +47,10 @@ compile '*' do
   item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
 
   layout 'default' unless item[:layout] == "none"
+
   filter :relativize_paths, :type => :html 
   filter :relativize_paths, :type => :css
+  filter :colorize_syntax, :default_colorizer => :pygmentize
 end
 
 route '/assets/css/*/' do

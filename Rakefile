@@ -65,7 +65,7 @@ TEMPLATE
     ymd = @ymd.split('-')
     year, month, day = ymd[0], ymd[1], ymd[2]
     path = "content/" + year + "/" + month + "/" + day + "/"
-    filename = title.parameterize('-') + ".html.erb"
+    filename = title.parameterize('-') + ".haml"
     [path, filename, path + filename]
   end
 end
