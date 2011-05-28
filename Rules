@@ -11,6 +11,7 @@ preprocess do
 end
 
 compile '/assets/css/*/' do
+  filter :erb
   filter :sass
 end
 
