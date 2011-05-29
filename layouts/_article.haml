@@ -13,3 +13,17 @@
 
   .body
     != content || partial(item)
+
+  - if !is_embedded
+    %p
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-6028115312967347";
+      /* my-blog */
+      google_ad_slot = "2439867305";
+      google_ad_width = 468;
+      google_ad_height = 60;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
