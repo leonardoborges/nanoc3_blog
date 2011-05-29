@@ -9,7 +9,7 @@
     - else
       = item[:title]
   
-  = render('_meta', :item => item)
+  = render('_meta', :item => item, :is_embedded => is_embedded)
 
   .body
     != content || partial(item)
