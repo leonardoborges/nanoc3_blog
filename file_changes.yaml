@@ -181,8 +181,8 @@
   :digest: 02ac2bc997f16f2de69ca8c4a639ae25d9237ae9
 :"content/2008/11/20/rails-performance-scripts-profiler-benchmarker.html": 
   :created_at: 2008/11/20
-  :updated_at: 2011-05-07 14:22:07 +10:00
-  :digest: e620905fa5e07276eaecbe0bfa3963630f8e4839
+  :updated_at: 2011-05-29 00:52:12 +10:00
+  :digest: 806dd809a83d108b3dd2a749fbd95488e383c3a1
 :"content/2008/12/03/apologizing-in-advance-p.html": 
   :created_at: 2008/12/03
   :updated_at: 2011-05-07 14:22:07 +10:00
@@ -399,3 +399,15 @@
   :created_at: "2011-05-08"
   :updated_at: 2011-05-08 23:57:08 +10:00
   :digest: d8a2c1e18f2abf957b07d1d8e883cc3b30de73de
+:"content/2011/05/18/when-cocurrency-bites-you-a-neat-way-to-partition-your-data.haml": 
+  :created_at: "2011-05-18"
+  :updated_at: 2011-05-21 20:16:26 +10:00
+  :digest: bdea95d4de48e93c5282fff52fc6f8c5ac9f3087
+:"content/2011/05/29/a-few-useful-git-commands.haml": 
+  :created_at: "2011-05-29"
+  :updated_at: 2011-05-29 10:18:26 +10:00
+  :digest: dfb63d59c1ea4b1285863bec92d4a1bfb5ddbd9d
+:"content/2011/06/19/a-tale-of-concurrency-partitioning-data-between-processes.haml": 
+  :created_at: "2011-06-19"
+  :updated_at: 2011-06-19 15:54:23 +10:00
+  :digest: c5f430588e7c32d3a1d0209632f33917f54c16b3

@@ -7,7 +7,6 @@ preprocess do
   copy_static
   create_tag_pages
   add_update_item_attributes
-  generate_excerpt
 end
 
 compile '/assets/css/*/' do

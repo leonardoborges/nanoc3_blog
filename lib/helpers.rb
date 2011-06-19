@@ -79,15 +79,6 @@ def add_update_item_attributes
   end
 end
 
-def generate_excerpt
-  articles.each do |item|
-    if item[:excerpt].nil? || item[:excerpt].empty?
-      item[:excerpt] = Nokogiri::HTML::DocumentFragment.parse(item.raw_content).text[0,200] + '...'
-    end
-  end
-end
-
-
 # Copy static assets outside of content instead of having nanoc3 process them.
 def copy_static
   FileUtils.cp_r 'static/.', 'output/' 
