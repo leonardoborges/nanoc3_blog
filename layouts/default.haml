@@ -13,8 +13,9 @@
       [keywords, tags].join(', ')
     end
   end
-  def link_unless_current(s, text=nil)
-    "<li><a href='/#{s}/'>#{text.nil? ? s : text}</a></li>" if @item.identifier != "/#{s}/" 
+  def link_unless_current(s, text=nil, options={})
+    rel_attr = options[:rel].nil? ? "" : "rel='#{options[:rel]}'"
+    "<li><a #{rel_attr} href='/#{s}/'>#{text.nil? ? s : text}</a></li>" if @item.identifier != "/#{s}/" 
   end
   def logo
     if is_front_page?
@@ -52,7 +53,7 @@
           = logo
         #nav
           %ul
-            != link_unless_current "about-2", "about"
+            != link_unless_current "about-2", "about", :rel => 'author'
             != link_unless_current "projects"
             != link_unless_current "presentations"
             != link_unless_current "books"
