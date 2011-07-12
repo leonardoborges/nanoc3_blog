@@ -17,6 +17,10 @@
             %a(href="#{tag_uri(tag)}" class='tag')
               = tag
       - if !is_embedded
-        %li.left-padding
+        #share
           <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="leonardo_borges">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          #plus-one
+          :javascript
+            $('#plus-one').html('<g:plusone size="medium" href="#{base_url}#{item.identifier}"></g:plusone>');
+            gapi.plusone.go("plus-one");
           <iframe src="http://www.facebook.com/plugins/like.php?app_id=229349460413663&amp;href=#{base_url}#{item.identifier}&amp;send=false&amp;layout=button_count&amp;width=94&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:94px; height:21px;" allowTransparency="true"></iframe>
