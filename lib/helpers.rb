@@ -122,7 +122,6 @@ def is_front_page?
     @item.identifier == '/'
 end
 
-
 def n_newer_articles(n, reference_item)
   return [] if reference_item[:is_hidden] #handles drafts
   @sorted_articles ||= sorted_articles

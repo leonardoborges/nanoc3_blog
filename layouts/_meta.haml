@@ -16,7 +16,7 @@
           %li
             %a(href="#{tag_uri(tag)}" class='tag')
               = tag
-      - if !is_embedded
+      - if !is_embedded && !item[:is_hidden]
         #share
           <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="leonardo_borges">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
           #plus-one
