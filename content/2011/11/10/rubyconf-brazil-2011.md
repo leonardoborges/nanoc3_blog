@@ -4,7 +4,7 @@ excerpt: I was in São Paulo last week - the 3rd and 4th of November - for [Ruby
 kind: article
 publish: true
 tags:
-- conferences
+- Conferences
 - rubyconf2011
 title: "RubyConf Brazil 2011"
 ---
